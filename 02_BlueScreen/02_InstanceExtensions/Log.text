@@ -1,0 +1,46 @@
+Log file opend succesfully
+
+fillInstanceExtensionNames() - vkEnumerateInstanceExtensionProperties function Successed
+First call to vkEnumerateInstanceExtensionProperties Successed
+ fillInstanceExtensionNames() - vkEnumerateInstanceExtensionProperties function Successed
+Second call to vkEnumerateInstanceExtensionProperties Successed
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_device_group_creation
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_external_fence_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_external_memory_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_external_semaphore_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_get_physical_device_properties2
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_get_surface_capabilities2
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_surface
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_surface_protected_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_win32_surface
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_EXT_debug_report
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_EXT_debug_utils
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_EXT_surface_maintenance1
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_EXT_swapchain_colorspace
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_NV_display_stereo
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_NV_external_memory_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_portability_enumeration
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_LUNARG_direct_driver_loading
+
+In fillInstanceExtensionNames(),VK_KHR_SURFACE_EXTENSION_NAME extension found
+In fillInstanceExtensionNames(),VK_KHR_WIN32_SURFACE_EXTENSION_NAME extension found
+In fillInstanceExtensionNames(),supported extension names = VK_KHR_surface
+
+In fillInstanceExtensionNames(),supported extension names = VK_KHR_win32_surface
+inlitialize() - fillInstanceExtensionNames function SuccessedWinMain() - initialized function successedLog succesfully closed
