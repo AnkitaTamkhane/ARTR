@@ -1,0 +1,387 @@
+Log file opend succesfully
+
+fillInstanceExtensionNames() - vkEnumerateInstanceExtensionProperties function Successed
+First call to vkEnumerateInstanceExtensionProperties Successed
+ fillInstanceExtensionNames() - vkEnumerateInstanceExtensionProperties function Successed
+Second call to vkEnumerateInstanceExtensionProperties Successed
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_device_group_creation
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_external_fence_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_external_memory_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_external_semaphore_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_get_physical_device_properties2
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_get_surface_capabilities2
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_surface
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_surface_protected_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_win32_surface
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_EXT_debug_report
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_EXT_debug_utils
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_EXT_surface_maintenance1
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_EXT_swapchain_colorspace
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_NV_display_stereo
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_NV_external_memory_capabilities
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_KHR_portability_enumeration
+
+fillInstanceExtensionNames() - Vulkan Extension Name = VK_LUNARG_direct_driver_loading
+
+In fillInstanceExtensionNames(),VK_KHR_SURFACE_EXTENSION_NAME extension found
+In fillInstanceExtensionNames(),VK_KHR_WIN32_SURFACE_EXTENSION_NAME extension found
+In fillInstanceExtensionNames(),supported extension names = VK_KHR_surface
+
+In fillInstanceExtensionNames(),supported extension names = VK_KHR_win32_surface
+
+createVulkanInstance() - fillInstanceExtensionNames function Successed
+createVulkanInstance() - vkCreateInstance() Successed
+
+inlitialize() - createVulkanInstance function Successed
+getSupportedSurface() - vkCreateWin32SurfaceKHR() function Successed
+inlitialize() - getSupportedSurface function Successed
+ getPhysicalDevice() - first call vkEnumeratePhysicalDevices() function Successed
+ getPhysicalDevice() - second call vkEnumeratePhysicalDevices() function Successed
+ getPhysicalDevice() -  Successed to free isQueueSurfaceSupported_array 
+ getPhysicalDevice() -  Successed to free vkQueueFamilyProperties_array 
+** printVkInfo() -  Successed to selected required physical device with graphics enabled 
+ == printVkInfo() -  Successed to selected required physical device with graphics enabled 
+ getPhysicalDevice() - selected physical device support tessellationShader
+ getPhysicalDevice() - selected physical device support geometryShader
+inlitialize() - getPhysicalDevice() function Successed
+******************** Vulkan Information ************************
+ API version = 1.3.286
+ Device Name :Intel(R) UHD Graphics
+ Device Type: Integrated GPU (iGPU) 
+ Vendor ID :0x8086
+ Device ID :0x9a68
+ API version = 1.3.278
+ Device Name :NVIDIA GeForce RTX 3050 Ti Laptop GPU
+ Device Type: Discrete GPU (dGPU) 
+ Vendor ID :0x10de
+ Device ID :0x25a0
+ printVkInfo() -  Successed to free vkPhysicalDevice_array 
+inlitialize() - printVkInfo() function Successed
+ fillDeviceExtensionNames() - vkEnumerateDeviceExtensionProperties function Successed
+First call to vkEnumerateDeviceExtensionProperties Successed
+ fillDeviceExtensionNames() - vkEnumerateDeviceExtensionProperties function Successed
+Second call to vkEnumerateDeviceExtensionProperties Successed
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_device_address_binding_report
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_full_screen_exclusive
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_swapchain
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_external_memory
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_external_memory_win32
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_external_memory_host
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_external_semaphore
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_external_semaphore_win32
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_external_fence
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_external_fence_win32
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_timeline_semaphore
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_win32_keyed_mutex
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_get_memory_requirements2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_bind_memory2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_dedicated_allocation
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_sampler_mirror_clamp_to_edge
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_maintenance1
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_maintenance2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_maintenance3
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_maintenance4
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_maintenance5
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_synchronization2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_shader_draw_parameters
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_push_descriptor
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_descriptor_update_template
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_multiview
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_shader_float16_int8
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_shader_float_controls
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_16bit_storage
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_8bit_storage
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_shader_subgroup_ballot
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_shader_subgroup_vote
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_storage_buffer_storage_class
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_variable_pointers
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_relaxed_block_layout
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_sampler_filter_minmax
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_device_group
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_sampler_ycbcr_conversion
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_ycbcr_2plane_444_formats
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_4444_formats
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_post_depth_coverage
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_shader_viewport_index_layer
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_shader_stencil_export
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_conservative_rasterization
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_sample_locations
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_draw_indirect_count
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_multi_draw
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_image_format_list
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_image_view_min_lod
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_vertex_attribute_divisor
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_descriptor_indexing
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_mutable_descriptor_type
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_inline_uniform_block
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_create_renderpass2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_dynamic_rendering
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_swapchain_mutable_format
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_depth_stencil_resolve
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_driver_properties
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_vulkan_memory_model
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_conditional_rendering
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_hdr_metadata
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_fragment_shading_rate
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_depth_clip_enable
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_depth_clip_control
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_scalar_block_layout
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_imageless_framebuffer
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_buffer_device_address
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_buffer_device_address
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_pipeline_library
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_host_query_reset
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_performance_query
+
+ fillDeviceExtensionNames() - Device extension Name = VK_NV_device_diagnostic_checkpoints
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_separate_depth_stencil_layouts
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_shader_clock
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_spirv_1_4
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_uniform_buffer_standard_layout
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_separate_stencil_usage
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_fragment_shader_interlock
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_index_type_uint8
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_primitive_topology_list_restart
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_shader_subgroup_extended_types
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_line_rasterization
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_memory_budget
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_memory_priority
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_pageable_device_local_memory
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_texel_buffer_alignment
+
+ fillDeviceExtensionNames() - Device extension Name = VK_INTEL_performance_query
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_subgroup_size_control
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_shader_demote_to_helper_invocation
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_pipeline_creation_feedback
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_pipeline_creation_cache_control
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_pipeline_executable_properties
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_graphics_pipeline_library
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_transform_feedback
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_provoking_vertex
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_extended_dynamic_state
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_extended_dynamic_state2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_extended_dynamic_state3
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_vertex_input_dynamic_state
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_custom_border_color
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_robustness2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_image_robustness
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_pipeline_robustness
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_calibrated_timestamps
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_shader_integer_dot_product
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_shader_subgroup_uniform_control_flow
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_shader_terminate_invocation
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_workgroup_memory_explicit_layout
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_shader_atomic_float
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_copy_commands2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_shader_non_semantic_info
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_zero_initialize_workgroup_memory
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_shader_atomic_float2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_global_priority
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_global_priority_query
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_global_priority
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_format_feature_flags2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_video_queue
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_video_decode_queue
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_video_decode_h264
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_video_decode_h265
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_color_write_enable
+
+ fillDeviceExtensionNames() - Device extension Name = VK_NV_compute_shader_derivatives
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_private_data
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_image_2d_view_of_3d
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_primitives_generated_query
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_shader_module_identifier
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_attachment_feedback_loop_layout
+
+ fillDeviceExtensionNames() - Device extension Name = VK_KHR_map_memory2
+
+ fillDeviceExtensionNames() - Device extension Name = VK_EXT_host_image_copy
+
+In fillDeviceExtensionNames(),VK_KHR_SWAPCHAIN_EXTENSION_NAME extension found
+ In fillDeviceExtensionNames(),supported device extension names = VK_KHR_swapchain
+
+ In fillDeviceExtensionNames(),supported device extension count = 130
+
+ createVulkanDevice() - fillDeviceExtensionNames function Successed
+ createVulkanDevice() - vkCreateDevice function Successed
+inlitialize() - createVulkanDevice() function Successed
+ getDeviceQueue() - vkGetDeviceQueue function Successed
+ getPhysicalDeviceSurfaceFormatAndColorSpace() -first vkGetPhysicalDeviceSurfaceFormatsKHR function Successed
+ getPhysicalDeviceSurfaceFormatAndColorSpace() -second vkGetPhysicalDeviceSurfaceFormatsKHR function Successed
+ unintialize()- vkSurfaceFormatKHR_array free successed
+createSwapChain() - getPhysicalDeviceSurfaceFormatAndColorSpace() function Successed
+ createSwapChain() - vkGetPhysicalDeviceSurfaceCapabilitiesKHR() function Successed
+ createSwapChain() - desiredNumberOfSwapchainImages minImageCount = 2
+ createSwapChain() - Swapchain image width x height =  784 x 561
+ getPhysicalDevicePresentMode() -first vkGetPhysicalDeviceSurfacePresentModesKHR function Successed
+ getPhysicalDevicePresentMode() -second vkGetPhysicalDeviceSurfacePresentModesKHR function Successed
+ ***In getPhysicalDevicePresentMode() vkPresentModeKHR - 2
+ getPhysicalDevicePresentMode()- vkPresentModeKHR_array free successed
+createSwapChain() - getPhysicalDevicePresentMode() function Successed
+createSwapChain() - vkCreateSwapchainKHR() function Successed
+inlitialize() - creatSwapChain() function Successed
+ createImagesAndImageView() -first call vkGetSwapchainImagesKHR() function Successed
+
+ createImagesAndImageView() - second call vkGetSwapchainImagesKHR() function Successed
+
+ createImagesAndImageView() - vkCreateImageViews function Successed for iteration 0
+
+ createImagesAndImageView() - vkCreateImageViews function Successed for iteration 1
+
+inlitialize() - createImagesAndImageView() function Successed
+
+inlitialize() - createImagesAndImageView() gives swapchainImage count = 2
+createCommandPool() - vkCreateCommandPool function Successed 
+inlitialize() - createCommandPool() function Successed
+
+ WinMain() - initialized function successed
+ unintialize()- vkDevice wait Idle is done
+ unintialize()- vkCommandPool destroy successed
+ unintialize()- swapchain Imagesviews destroy successed
+ unintialize()- swapchain Imagesviews destroy successed
+ unintialize()- swapchainImageView_array destroy successed
+ unintialize()- swapchainImage_array destroy successed
+ unintialize()- vkSwapchainKHR destroy successed
+ unintialize()- vkDevice destroy successed
+ unintialize()- vkSurfaceKHR destroy successed
+ unintialize()- vkInstance destroy successed
+Log succesfully closed
